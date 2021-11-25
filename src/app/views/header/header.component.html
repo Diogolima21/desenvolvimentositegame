@@ -1,19 +1,15 @@
-<mat-toolbar color="primary">
+<mat-toolbar>
     <mat-toolbar-row>
-      <span>Ola mundo</span>
-    </mat-toolbar-row>
-  
-    <mat-toolbar-row>
-      <span>Second Line</span>
-      <span class="example-spacer"></span>
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
-    </mat-toolbar-row>
-  
-    <mat-toolbar-row>
-      <span>Third Line</span>
-      <span class="example-spacer"></span>
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example heart icon">favorite</mat-icon>
-      <mat-icon class="example-icon" aria-hidden="false" aria-label="Example delete icon">delete</mat-icon>
+      <a class= "logo-1.png" routerLink= "/">
+        <img style="margin-top:15px" src = "./assets/img/logo-1.png" width="170px">
+      </a>
+      <div class= "menu-links">
+        <a mat-button routerLink="/jogos">Jogos</a>
+        <a mat-button routerLink="/portifolio">Portifólio</a>
+        <a mat-button routerLink="/contatos">Contatos</a>
+      </div>
     </mat-toolbar-row>
   </mat-toolbar>
+
+  
   

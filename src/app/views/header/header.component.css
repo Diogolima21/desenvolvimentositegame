@@ -4,4 +4,16 @@
   .example-spacer {
     flex: 1 1 auto;
   }
+
+.mat-toolbar-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
   
+}
+
+.logo-1.png{
+  height: 26px;
+}
+
