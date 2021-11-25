@@ -7,9 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  public titulo!:string;
+  public texto!:string;
 
+  classToDiv = {};
+
+  constructor() { 
+
+    this.classToDiv = {
+      'text-success': true
+
+    };
+  }
   ngOnInit(): void {
+    this.titulo! ='Senai Santa Barbara D´oste';
+    this.texto! ='Senai centro de formação para o mercado de trabalho';
   }
 
 }
