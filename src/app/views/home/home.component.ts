@@ -9,6 +9,7 @@ export class HomeComponent implements OnInit {
 
   public titulo!:string;
   public texto!:string;
+  
 
   classToDiv = {};
 
